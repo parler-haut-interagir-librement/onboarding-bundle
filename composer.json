@@ -1,6 +1,6 @@
 {
     "name": "phil/onboarding-bundle",
-    "description": "The welcome of a new member, for Symfony: flows of ordered steps completed by hand, by an event, by a checker or by an answer the application turns into roles and subscriptions, each user's progress kept under their identifier, and an accessible checklist and guided tour, in English and French",
+    "description": "Welcome new members in Symfony: ordered onboarding steps completed by hand or by events, each user's progress kept, an accessible checklist and a guided tour.",
     "license": "MIT",
     "type": "symfony-bundle",
     "keywords": [
@@ -37,7 +37,7 @@
         "ext-pdo": "*",
         "doctrine/doctrine-bundle": "^3.3",
         "phil/privacy-bundle": "^0.1@dev",
-        "phil/settings-bundle": "^0.1@dev",
+        "phil/settings-bundle": "^0.1@dev || ^0.2@dev",
         "phil/ux-kit": ">=0.5.0-alpha <1.0",
         "phpunit/phpunit": "^13.4",
         "psr/log": "^3.0",
@@ -85,7 +85,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-main": "0.1.x-dev"
+            "dev-main": "0.2.x-dev"
         }
     }
 }
